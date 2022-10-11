@@ -1,7 +1,7 @@
 import { Counter } from './features/counter/Counter';
 import { AddPostForm } from './features/posts/AddPostForm'
 import { PostsList } from './features/posts/PostsList'
-import { Navbar } from './app/Navbar'
+
 import React from 'react'
 import {
   BrowserRouter as Router,
@@ -14,7 +14,6 @@ import { SinglePostPage } from './features/posts/SinglePostPage'
 function App() {
   return (
     <Router>
-      <Navbar />
       <div className="App">
         <Switch>
           <Route
